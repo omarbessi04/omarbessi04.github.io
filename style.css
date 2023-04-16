@@ -1,0 +1,45 @@
+/* Með CSS stjórnarðu ´tliti síðunnar, eins og litum, leturgerð, og staðsetningu
+innihledsins. En sjálft innihald síðunnar er í HTML kóðanum.
+Til þess að læra að gera eitthvað, prófaðu að leita á google af því sem þú vilt vita, til dæmis:
+"how to change link color." */
+
+
+@import url('https://fonts.cdnfonts.com/css/curlz');
+
+html{
+}
+
+
+body {
+  background-color: #FF0000;
+  color: #FFFFAA;
+  font-family: Curlz;
+  font-size: 32px;
+}
+
+h1 {
+  color: #00FF00;
+  background-color: #888888;
+  font-style: bold;
+  font-size: 300%;
+}
+
+h2 {
+  color: #00FFFF;
+  font-style: oblique;
+  text-align: center;
+  border: 3px solid green;
+}
+
+a {
+  font-family: Comic sans ms;
+  color: #AAAAFF;
+}
+
+a:hover {
+  color: #000000;
+}
+
+ul {
+  background-color: #994444;
+}
