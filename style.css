@@ -11,35 +11,35 @@ html{
 
 
 body {
-  background-color: #FF0000;
+  background-color: #ffffff;
   color: #FFFFAA;
-  font-family: Curlz;
+  font-family: Sans-serif;
   font-size: 32px;
 }
 
 h1 {
-  color: #00FF00;
-  background-color: #888888;
+  color: 000000;
   font-style: bold;
   font-size: 300%;
+  text-align: center;
 }
 
 h2 {
   color: #00FFFF;
   font-style: oblique;
   text-align: center;
-  border: 3px solid green;
+  border: 3px solid black;
 }
 
 a {
-  font-family: Comic sans ms;
-  color: #AAAAFF;
-}
-
-a:hover {
+  font-family: Times new roman;
   color: #000000;
 }
 
+a:hover {
+  color: #000099;
+}
+
 ul {
-  background-color: #994444;
+  background-color: #ffffff;
 }
